@@ -1,0 +1,29 @@
+:root{
+    --white-bg: #f2f2f2;
+    --black-text: #0c0c0c;
+    --white-text: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.white-bg{
+    background: var(--white-bg);
+    color: var(--black-text);
+}
+
+.main-bg{
+    background-image: url("../img/main-bg.svg");
+    color: var(--white-text)
+}
