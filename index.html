@@ -7,18 +7,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Inconsolata:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Barberclub-wm</title>
 </head>
 <body>
     <div class="menu darker-bg">
         <section class="main-content menu-content">
-            <img id="img-logo" src="assets/img/logo-barbershop-wm2.png">
+            <img id="img-logo" class="logo-barbershop" src="assets/img/logo-barbershop-wm2.png">
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#schedule">Agendar</a></li>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#schedule">Contatos</a></li>
+                    <li><a href="https://client.tuaagenda.com/c/Wmbarberclub/agendar/funcionarios" target="_blank">Agendar</a></li>
                 </ul>
             </nav>
         </section>
@@ -74,8 +78,8 @@
         </div>
     </section>
     
-    <section id="schedule" class="schedule-head">
-        <div>
+    <section id="schedule" class="schedule-head main-bg">
+        <div class="info-container">
             <div class="horario-atendimento">
                 <h2 class="table-title">Horário de atendimento</h2>
                 <table class="table-content">
@@ -85,41 +89,43 @@
                     </tr>
 
                     <tr>
-                        <th>Terça</th>
-                        <th>09:00 - 19:00</th>
+                        <th><i>Terça</i></th>
+                        <th><i>09:00 - 19:00</i></th>
                     </tr>
 
                     <tr>
-                        <th>Quarta</th>
-                        <th>09:00 - 19:00</th>
+                        <th><i>Quarta</i></th>
+                        <th><i>09:00 - 19:00</i></th>
                     </tr>
 
                     <tr>
-                        <th>Quinta</th>
-                        <th>09:00 - 19:00</th>
+                        <th><i>Quinta</i></th>
+                        <th><i>09:00 - 19:00</i></th>
                     </tr>
 
                     <tr>
-                        <th>Sexta</th>
-                        <th>09:00 - 19:00</th>
+                        <th><i>Sexta</i></th>
+                        <th><i>09:00 - 19:00</i></th>
                     </tr>
 
                     <tr>
-                        <th>Sábado</th>
-                        <th>09:00 - 18:00</th>
+                        <th><i>Sábado</i></th>
+                        <th><i>09:00 - 18:00</i></th>
                     </tr>
                 </table>
             </div>
 
-            <div class="button-agendar">
-                <h3>Agende hoje mesmo um horário conosco!</h3>
-                <button class="agendar">Agendar</button>
+            <div class="redes-sociais">
+                <p>Nosso instagram</p>
+                <div id="instagram-call" class="div-instagram"><span class="span-instagram"></span></div>
             </div>
 
             <div class="info-contato">
-                <h1>Nosso telefone: (21) 9 8303-9936</h1>
+                <p>Nosso telefone: (21) 9 8303-9936</p>
+                <button id="button-schedule">Agendar</button>
             </div>
         </div>
     </section>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
