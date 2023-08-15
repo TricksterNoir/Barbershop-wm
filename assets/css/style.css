@@ -119,6 +119,10 @@ a:hover{
     color: var(--white-text);
 }
 
+.img-home{
+    max-width: 100%;
+}
+
 .home-title{
     font-size: 5.5rem;
 }
@@ -183,6 +187,10 @@ a:hover{
 }
 .gallery-img img:hover{
     transform: translate(3%, 3%) scale(1.2);
+}
+
+.fullscreen-img{
+    cursor: pointer;
 }
 
                         /*--------- Info section ----------*/
@@ -272,6 +280,10 @@ td{
     margin: 0.5rem 0;
 }
 
+.our-instagram{
+    font-size: 3rem;
+}
+
 /*Logo instagram*/
 .div-instagram {
     width: 4rem;
@@ -337,7 +349,7 @@ button {
     margin: 0 auto;
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 10%;
   }
   
   button {

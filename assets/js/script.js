@@ -25,3 +25,30 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    var phoneCopy = this.getElementById('copy-phone-number');
+
+    phoneCopy.addEventListener('click', function(event){
+        event.preventDefault();
+
+        var phoneNumber = '21983039936';
+        var textArea = document.createElement('textarea');
+        textArea.value = phoneNumber;
+
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textArea);
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    var imgFullscreen = document.querySelectorAll(".fullscreen-img");
+
+    imgFullscreen.forEach(function(img) {
+        img.addEventListener("click", function() {
+            img.requestFullscreen();
+        });
+    });
+});
