@@ -5,7 +5,7 @@
     --white-text: #ffffff;
     --bright-text: #ba7b2b;
     --light-gray: #eee;
-    --gap: 3rem;
+    --gap: 1.5rem;
 }
 
 *{
@@ -119,8 +119,9 @@ a:hover{
     color: var(--white-text);
 }
 
-.img-home{
+.img-home img{
     max-width: 100%;
+    height: auto;
 }
 
 .home-title{
@@ -161,6 +162,7 @@ a:hover{
 }
 
 .gallery-title{
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
