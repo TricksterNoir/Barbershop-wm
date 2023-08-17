@@ -372,7 +372,7 @@ button {
     }
 }
 
-@media(max-width: 768px){
+@media(max-width: 1080px){
     .img-home{
         width: 0%;
         height: 0%;
