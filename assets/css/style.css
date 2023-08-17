@@ -374,6 +374,7 @@ button {
 
 @media(max-width: 768px){
     .img-home{
-        overflow: hidden;
+        width: 0%;
+        height: 0%;
     }
 }
