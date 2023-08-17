@@ -60,10 +60,6 @@ h2{
     min-height: 100vh;
 }
 
-.intro{
-    max-width: 100%;
-}
-
 .menu {
     position: fixed;
     top: 0;
@@ -106,6 +102,7 @@ a:hover{
 .home-home{
     display: flex;
     justify-content: space-between;
+    max-width: 100%;
 }
 
 .home-content{
