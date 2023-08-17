@@ -41,7 +41,9 @@ h2{
 
 .main-bg{
     background-image: url("../img/main-bg.svg");
-    color: var(--white-text)
+    color: var(--white-text);
+    background-size: cover;
+    max-width: 100%;
 }
 
 .darker-bg{
@@ -369,8 +371,5 @@ button {
 @media(max-width: 1080px){
     .home-title{
         font-size: 2.5rem;
-    }
-    .home-description{
-        font-size: 2rem;
     }
 }
