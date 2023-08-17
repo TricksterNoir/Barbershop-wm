@@ -364,3 +364,9 @@ button {
     background-color: var(--bright-text);
     color: white;
   }
+
+@media(max-width: 768px){
+    .home-title{
+        font-size: 2.5rem;
+    }
+}
