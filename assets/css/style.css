@@ -60,6 +60,10 @@ h2{
     min-height: 100vh;
 }
 
+.intro{
+    max-width: 100%;
+}
+
 .menu {
     position: fixed;
     top: 0;
