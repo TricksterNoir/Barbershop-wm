@@ -370,11 +370,7 @@ button {
     .home-title{
         font-size: 2.5rem;
     }
-}
-
-@media(max-width: 1080px){
-    .img-home{
-        width: 0%;
-        height: 0%;
+    .home-description{
+        font-size: 2rem;
     }
 }
