@@ -37,12 +37,12 @@ h2{
 .white-bg{
     background: var(--white-bg);
     color: var(--black-text);
+    max-width: 100%;
 }
 
 .main-bg{
     background-image: url("../img/main-bg.svg");
     color: var(--white-text);
-    background-size: cover;
     max-width: 100%;
 }
 
@@ -79,6 +79,11 @@ h2{
     padding-top: 0;
     padding-bottom: 0;
   }
+
+.instagram-menu-opt img{
+    display: block;
+    margin: 0 auto;
+}
 
 ul{
     margin: 0;
@@ -196,6 +201,13 @@ a:hover{
 
 .fullscreen-img{
     cursor: pointer;
+}
+
+.container-title-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
                         /*--------- Info section ----------*/
@@ -368,8 +380,56 @@ button {
     color: white;
   }
 
-@media(max-width: 1080px){
+@media(max-width: 1500px){
     .home-title{
         font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 800px){
+    .home-content{
+        display: block;
+    }
+
+    .home-text{
+        max-width: 100%;
+    }
+
+    .img-home{
+        display: none;
+    }
+
+    .gallery-pack-img{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .gallery-img:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    .horario-atendimento{
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .redes-sociais{
+        display: none;
+    }
+
+    .info-contato{
+        display: none;
+    }
+
+    .home-menu-opt, .gallery-menu-opt,
+    .schedule-menu-opt{
+        display: none;
+    }
+
+    th{
+        font-size: 1.7rem;
+    }
+    
+    td{
+        font-size: 0.7rem;
     }
 }
