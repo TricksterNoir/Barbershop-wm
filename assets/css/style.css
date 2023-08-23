@@ -187,6 +187,7 @@ a:hover{
 
 .gallery-img{
     width: 100%;
+    height: auto;
     max-width: 26rem;
     max-height: 26rem;
     overflow: hidden;
@@ -403,7 +404,7 @@ button {
         grid-template-columns: repeat(2, 1fr);
     }
     
-    .gallery-img:nth-last-child(-n+2) {
+    .gallery-img:nth-last-child(-n+3) {
         display: none;
     }
 
@@ -431,5 +432,39 @@ button {
     
     td{
         font-size: 0.7rem;
+    }
+
+    .gallery-content{
+        width: 100%;
+    }
+
+    .gallery-head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .gallery-head{
+        height: 100vh;
+    }
+
+    .gallery-pack-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .gallery-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery-img img {  
+        max-width: 14rem;
     }
 }
