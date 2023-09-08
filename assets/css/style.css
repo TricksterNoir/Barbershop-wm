@@ -475,6 +475,7 @@ button {
 
     .gallery-img img {  
         max-width: 14rem;
+        height: autos;
     }
 
     .info-container{
